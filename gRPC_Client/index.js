@@ -10,11 +10,11 @@ var hello_proto = grpc.loadPackageDefinition(packageDefinition);
  function  main() {
   target = 'localhost:5115';
 
-  var client =  new hello_proto.greetoo.Greeter(target,
+  var client =  new hello_proto.greet.UserLog(target,
                                        grpc.credentials.createInsecure());
   var user = "Krishna Pravesh"
 
-   client.SayHello({name: user}, function(err, response) {
+   client.NewUser({id:1, name:"from js", email : "wick@gmail.com"}, function(err, response) {
       console.log(response.message);
      
   });

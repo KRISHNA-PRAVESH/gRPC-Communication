@@ -1,1 +1,3 @@
 /gRPC_Client/node_modules
+/GrpcGreeter/.vs
+/GrpcGreeterClient/.vs

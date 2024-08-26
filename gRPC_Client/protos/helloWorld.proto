@@ -2,22 +2,20 @@ syntax = "proto3";
 
 
 //this package name should match the proto file;s package name in gRPC server also
-package greetoo;
+package greet;
 
 // The greeting service definition.
-service Greeter {
-  // Sends a greeting
-  rpc SayHello (HelloRequest) returns (HelloReply) {}
 
-  rpc SayHelloStreamReply (HelloRequest) returns (stream HelloReply) {}
+service UserLog{
+	rpc NewUser (User) returns (Response);
 }
 
-// The request message containing the user's name.
-message HelloRequest {
-  string name = 1;
+message User{
+	int32 id = 1;
+	string name = 2;
+	string email = 3;
 }
 
-// The response message containing the greetings
-message HelloReply {
-  string message = 1;
+message Response{
+	string message = 1;
 }

@@ -19,3 +19,4 @@ C:\Users\KrishnaPraveshH\dotnet-basics\grpcDemo\GrpcGreeterClient\obj\Debug\net8
 C:\Users\KrishnaPraveshH\dotnet-basics\grpcDemo\GrpcGreeterClient\obj\Debug\net8.0\GrpcGreeterClient.pdb
 C:\Users\KrishnaPraveshH\dotnet-basics\grpcDemo\GrpcGreeterClient\obj\Debug\net8.0\GrpcGreeterClient.genruntimeconfig.cache
 C:\Users\KrishnaPraveshH\dotnet-basics\grpcDemo\GrpcGreeterClient\obj\Debug\net8.0\ref\GrpcGreeterClient.dll
+C:\Users\KrishnaPraveshH\dotnet-basics\grpcDemo\GrpcGreeterClient\obj\Debug\net8.0\GrpcGreeterClient.sourcelink.json
